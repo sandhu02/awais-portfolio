@@ -45,7 +45,7 @@ export const PERSONAL_INFO = {
   location: "Islamabad, 45550, Pakistan",
   linkedin: "https://www.linkedin.com/in/awais02/",
   github: "https://github.com/sandhu02",
-  googlePlay: "https://play.google.com/apps/testing/com.sandhu.jsonlauncher",
+  googlePlay: "https://play.google.com/store/apps/dev?id=8090709539067395999",
   whatsapp: "https://wa.me/923196137128",
 };
 
@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
       "LauncherApps API",
       "NotificationListenerService",
     ],
-    playStoreUrl: "https://play.google.com/apps/testing/com.sandhu.jsonlauncher",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.awais.jsonlauncher",
     githubUrl: "https://github.com/sandhu02/JsonLauncher",
     image: "/images/json_launcher.jpg",
     additionalImages: [

@@ -117,7 +117,7 @@ export default function ContactFooter() {
           <div className="scale-110 sm:scale-125 md:scale-135 py-12 transition-transform duration-300 hover:scale-140">
             <BrandLogo
               size="lg"
-              braceColor="#F4F0E8"
+              braceColor="#FEC700"
               textColor="#FFFFFF"
               subtitleColor="#94A3B8"
             />

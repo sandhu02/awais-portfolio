@@ -28,7 +28,7 @@ export default function ProjectsSection() {
   };
 
   return (
-    <section id="projects" className="w-full bg-[#0D0D0D] text-white">
+    <section id="projects" className="w-full bg-[#0D0D0D] text-white scroll-mt-6">
       {/* 1. Exact PDF Projects Header & List Section */}
       <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[520px] border-b border-zinc-800">
         {/* Left Column: "Projects" Heading + Curved Green Arrow */}

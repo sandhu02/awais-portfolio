@@ -9,9 +9,40 @@ export default function HeaderHero() {
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-[560px] md:min-h-[640px]">
         {/* Left Column: Bold Emerald Green Hero Block */}
         <div className="bg-[#169458] text-white p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between relative overflow-hidden">
-          {/* Top Logo & Header */}
-          <div className="relative z-10">
-            <BrandLogo size="lg" braceColor="#F4F0E8" textColor="#FFFFFF" subtitleColor="#E2F5EA" />
+          {/* Top Logo & Navigation Header */}
+          <div className="relative z-20 flex items-center justify-between flex-wrap gap-4 pb-4">
+            <BrandLogo size="lg" braceColor="#FEC700" textColor="#FFFFFF" subtitleColor="#E2F5EA" />
+
+            <nav className="flex items-center gap-3 sm:gap-4 font-mono text-xs sm:text-sm">
+              <a
+                href="#services"
+                className="hidden md:inline-block text-white/80 hover:text-white transition-colors uppercase tracking-wider text-xs font-semibold"
+              >
+                Services
+              </a>
+              <a
+                href="#skills"
+                className="hidden md:inline-block text-white/80 hover:text-white transition-colors uppercase tracking-wider text-xs font-semibold"
+              >
+                Skills
+              </a>
+              {/* Highlighted Projects Button requested by user */}
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 bg-black hover:bg-zinc-900 text-white text-xs sm:text-sm font-mono tracking-wider uppercase border border-white/30 hover:border-white transition-all duration-200 shadow-md group"
+              >
+                <span>Projects</span>
+                <svg
+                  className="w-3.5 h-3.5 text-emerald-400 group-hover:translate-y-0.5 transition-transform duration-200"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </a>
+            </nav>
           </div>
 
           {/* Large Hero Graphic Space / Subtle Modern Details */}
