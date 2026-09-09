@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 840" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <linearGradient id="phoneBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="videoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2F54EB"/>
+      <stop offset="100%" stop-color="#169458"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Device Outer Frame -->
+  <rect x="10" y="10" width="400" height="820" rx="44" fill="#09090b" stroke="url(#phoneBorder)" stroke-width="6"/>
+  <!-- Inner Screen -->
+  <rect x="20" y="20" width="380" height="800" rx="36" fill="#0a0f1d"/>
+
+  <!-- Camera Punchhole -->
+  <circle cx="210" cy="38" r="6" fill="#000000"/>
+  <circle cx="210" cy="38" r="3" fill="#1e293b"/>
+
+  <!-- Top Status Bar -->
+  <text x="45" y="44" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">10:09</text>
+  <g transform="translate(330, 33)">
+    <!-- 5G & Battery Icons -->
+    <path d="M0 10 L4 6 L8 10 Z" fill="#94a3b8"/>
+    <path d="M12 10 L16 3 L20 10 Z" fill="#94a3b8"/>
+    <rect x="25" y="2" width="20" height="9" rx="2" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="27" y="4" width="13" height="5" rx="1" fill="#169458"/>
+    <rect x="45" y="5" width="2" height="3" fill="#94a3b8"/>
+  </g>
+
+  <!-- App Header -->
+  <g transform="translate(35, 75)">
+    <text x="0" y="20" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5">Signstream</text>
+    <rect x="135" y="5" width="58" height="20" rx="10" fill="#169458" fill-opacity="0.2"/>
+    <circle cx="147" cy="15" r="4" fill="#169458"/>
+    <text x="156" y="19" fill="#169458" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="700">LIVE</text>
+    <!-- Header Action Icons -->
+    <circle cx="310" cy="14" r="16" fill="#1e293b"/>
+    <path d="M304 14 A6 6 0 1 0 316 14 A6 6 0 1 0 304 14 M314 18 L318 22" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="345" cy="14" r="16" fill="#2F54EB"/>
+    <path d="M339 12 L351 12 M345 9 L345 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Video Reel Feed Card -->
+  <g transform="translate(35, 125)">
+    <rect x="0" y="0" width="350" height="380" rx="24" fill="url(#videoBg)" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Abstract video graphic / waveform -->
+    <circle cx="175" cy="160" r="60" fill="#2F54EB" fill-opacity="0.2" filter="url(#glow)"/>
+    <circle cx="175" cy="160" r="32" fill="#2F54EB" fill-opacity="0.8"/>
+    <polygon points="170,148 186,160 170,172" fill="#ffffff"/>
+
+    <!-- Creator info overlay -->
+    <g transform="translate(20, 290)">
+      <circle cx="18" cy="18" r="18" fill="#169458"/>
+      <text x="13" y="24" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">A</text>
+      <text x="46" y="16" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">@awais.dev</text>
+      <text x="46" y="32" fill="#94a3b8" font-family="sans-serif" font-size="11">Islamabad • 2m ago</text>
+      
+      <text x="0" y="58" fill="#f1f5f9" font-family="sans-serif" font-size="13" font-weight="500">Real-time WebRTC audio room with low-latency</text>
+      <text x="0" y="76" fill="#60a5fa" font-family="sans-serif" font-size="11" font-weight="600">#JetpackCompose #WebRTC #SocketIO #Kotlin</text>
+    </g>
+
+    <!-- Side Action Bar (Reel Likes/Comments/Share) -->
+    <g transform="translate(305, 190)">
+      <!-- Like -->
+      <circle cx="16" cy="16" r="18" fill="#0f172a" fill-opacity="0.6"/>
+      <path d="M16 11 C12 7, 7 11, 7 15 C7 20, 16 25, 16 25 C16 25, 25 20, 25 15 C25 11, 20 7, 16 11 Z" fill="#ef4444"/>
+      <text x="9" y="44" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="600">4.2k</text>
+
+      <!-- Comment -->
+      <circle cx="16" cy="70" r="18" fill="#0f172a" fill-opacity="0.6"/>
+      <path d="M10 65 H22 V75 H15 L11 78 V75 H10 Z" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+      <text x="11" y="98" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="600">188</text>
+
+      <!-- Audio Room -->
+      <circle cx="16" cy="124" r="18" fill="#169458"/>
+      <path d="M12 120 L16 116 L20 120 M16 116 V130" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Active WebRTC Audio Call Badge (Compose Floating Card) -->
+  <g transform="translate(35, 525)">
+    <rect x="0" y="0" width="350" height="74" rx="18" fill="#111827" stroke="#169458" stroke-width="1.5"/>
+    <circle cx="34" cy="37" r="18" fill="#169458" fill-opacity="0.2"/>
+    <path d="M28 37 C28 32, 40 32, 40 37 V40 C40 42, 38 43, 34 43 C30 43, 28 42, 28 40 Z" fill="#169458"/>
+    
+    <text x="64" y="32" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">WebRTC Audio Channel</text>
+    <text x="64" y="50" fill="#169458" font-family="sans-serif" font-size="11" font-weight="600">● Connected • 24ms jitter</text>
+
+    <!-- Animated Audio Wave Bars -->
+    <rect x="250" y="27" width="3" height="20" rx="1.5" fill="#169458"/>
+    <rect x="257" y="21" width="3" height="32" rx="1.5" fill="#169458"/>
+    <rect x="264" y="31" width="3" height="12" rx="1.5" fill="#169458"/>
+    <rect x="271" y="23" width="3" height="28" rx="1.5" fill="#169458"/>
+    <rect x="278" y="28" width="3" height="18" rx="1.5" fill="#169458"/>
+    
+    <!-- End call button -->
+    <circle cx="316" cy="37" r="14" fill="#ef4444"/>
+    <path d="M310 37 H322" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Real-Time Socket.IO Message Card -->
+  <g transform="translate(35, 615)">
+    <rect x="0" y="0" width="350" height="85" rx="18" fill="#111827" stroke="#334155" stroke-width="1"/>
+    <text x="18" y="26" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="600">REAL-TIME SOCKET.IO DISPATCH</text>
+    <text x="18" y="48" fill="#f8fafc" font-family="'JetBrains Mono', monospace, sans-serif" font-size="12">"event": "message_delivered"</text>
+    <text x="18" y="68" fill="#34d399" font-family="'JetBrains Mono', monospace, sans-serif" font-size="12">"status": "ack_received_200_ok"</text>
+    <circle cx="320" cy="42" r="12" fill="#2F54EB" fill-opacity="0.3"/>
+    <path d="M316 42 L319 45 L325 39" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(35, 720)">
+    <rect x="0" y="0" width="350" height="60" rx="30" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Nav Icons -->
+    <g transform="translate(38, 30)">
+      <path d="M-8 4 L0 -4 L8 4 V8 H-8 Z" fill="#169458"/>
+    </g>
+    <g transform="translate(108, 30)">
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#64748b" stroke-width="2"/>
+      <path d="M4 4 L8 8" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(175, 30)">
+      <rect x="-8" y="-8" width="16" height="16" rx="4" fill="#2F54EB"/>
+      <polygon points="-2,-4 4,0 -2,4" fill="#ffffff"/>
+    </g>
+    <g transform="translate(242, 30)">
+      <path d="M-6 4 C-6 -2 6 -2 6 4 L8 6 H-8 Z" fill="none" stroke="#64748b" stroke-width="2"/>
+    </g>
+    <g transform="translate(312, 30)">
+      <circle cx="0" cy="0" r="8" fill="#334155"/>
+      <circle cx="0" cy="-2" r="3" fill="#94a3b8"/>
+      <path d="M-5 6 C-5 3 5 3 5 6" stroke="#94a3b8" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Android Navigation Bar (Gestural Line) -->
+  <rect x="160" y="805" width="100" height="4" rx="2" fill="#475569"/>
+</svg>
