@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
     ],
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.awais.jsonlauncher",
     githubUrl: "https://github.com/sandhu02/JsonLauncher",
-    image: "/images/json_launcher.jpg",
+    image: "/images/json_launcher.png",
     additionalImages: [
       "/images/json_launcher.jpg",
       "/images/json_clock.svg",
@@ -213,9 +213,9 @@ export const PROJECTS: Project[] = [
     ],
     githubUrl: "https://github.com/sandhu02/JsonClock",
     playStoreUrl: "https://github.com/sandhu02/JsonClock",
-    image: "/images/json_clock.svg",
+    image: "/images/json_clock.png",
     additionalImages: [
-      "/images/json_clock.svg",
+      "/images/json_clock.png",
     ],
     keyFeatures: [
       "Declarative UI built exclusively with modern Jetpack Glance, eliminating legacy RemoteViews XML.",

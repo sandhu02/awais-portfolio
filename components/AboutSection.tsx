@@ -19,7 +19,7 @@ export default function AboutSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/30 pointer-events-none" />
 
           {/* Quick Code Badge Overlay at bottom */}
-          <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-black/70 backdrop-blur-md border border-white/10 text-white/90">
+          {/* <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-black/70 backdrop-blur-md border border-white/10 text-white/90">
             <div className="flex items-center justify-between text-xs font-mono text-zinc-400 mb-1">
               <span>stack_trace.kt</span>
               <span className="text-emerald-400">● Live Preview</span>
@@ -27,7 +27,7 @@ export default function AboutSection() {
             <p className="font-mono text-xs sm:text-sm text-emerald-300">
               val experience = "Android Native" + "Jetpack Compose" + "Node.js"
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Side: Emerald Green "About Awais" Block */}
