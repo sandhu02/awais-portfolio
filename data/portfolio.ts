@@ -146,7 +146,7 @@ export const PROJECTS: Project[] = [
       "NotificationListenerService",
     ],
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.awais.jsonlauncher",
-    githubUrl: "https://github.com/sandhu02/awais-portfolio",
+    githubUrl: "https://github.com/sandhu02/json-launcher",
     image: "/images/json_launcher.png",
     additionalImages: [
       "/images/json_launcher.jpg",
