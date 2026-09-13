@@ -84,7 +84,7 @@ export default function HeaderHero() {
           {/* Top Half: Professional Portrait Photo */}
           <div className="relative w-full h-[380px] sm:h-[420px] md:h-[460px] lg:h-[480px] overflow-hidden bg-[#0A0A0A]">
             <Image
-              src="/images/hero_portrait.jpg"
+              src="/images/hero_portrait1.jpg"
               alt="Muhammad Awais - Native Android Developer"
               fill
               priority

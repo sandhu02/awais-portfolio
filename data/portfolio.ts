@@ -146,7 +146,7 @@ export const PROJECTS: Project[] = [
       "NotificationListenerService",
     ],
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.awais.jsonlauncher",
-    githubUrl: "https://github.com/sandhu02/JsonLauncher",
+    githubUrl: "https://github.com/sandhu02/awais-portfolio",
     image: "/images/json_launcher.png",
     additionalImages: [
       "/images/json_launcher.jpg",
@@ -180,8 +180,8 @@ export const PROJECTS: Project[] = [
       "Cloudinary",
       "MongoDB",
     ],
-    githubUrl: "https://github.com/sandhu02/Signstream",
-    playStoreUrl: "https://github.com/sandhu02/Signstream",
+    githubUrl: "https://github.com/sandhu02/AndroidProjects",
+    playStoreUrl: "",
     image: "/images/signstream.svg",
     additionalImages: [
       "/images/signstream.svg",
@@ -211,8 +211,8 @@ export const PROJECTS: Project[] = [
       "WorkManager",
       "Material 3",
     ],
-    githubUrl: "https://github.com/sandhu02/JsonClock",
-    playStoreUrl: "https://github.com/sandhu02/JsonClock",
+    githubUrl: "https://github.com/sandhu02/AndroidProjects",
+    playStoreUrl: "",
     image: "/images/json_clock.png",
     additionalImages: [
       "/images/json_clock.png",
