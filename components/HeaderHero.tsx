@@ -47,15 +47,14 @@ export default function HeaderHero() {
 
           {/* Large Hero Graphic Space / Subtle Modern Details */}
           <div className="my-12 md:my-16 relative z-10">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/20 text-white/90 text-xs font-mono tracking-wide mb-6 border border-white/10 backdrop-blur-sm">
-              <span className="w-2 h-2 rounded-full bg-[#34d399] animate-pulse" />
-              Available for Android &amp; Backend Projects
-            </div>
+  
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.08]">
-              Crafting High-Performance Native Android Apps
+              Native Android
+              <br />
+              Developer
             </h1>
             <p className="mt-4 text-base sm:text-lg text-emerald-50/90 max-w-lg font-normal leading-relaxed">
-              Specialized in Kotlin, modern declarative Jetpack Compose, clean reactive architecture, and custom cloud backends.
+              Kotlin · Jetpack Compose · Node.js
             </p>
           </div>
 
@@ -65,13 +64,13 @@ export default function HeaderHero() {
               href="#projects"
               className="px-6 py-3 bg-black hover:bg-zinc-900 text-white font-medium text-sm rounded-none transition-all duration-200 border border-black hover:border-zinc-800 shadow-sm"
             >
-              Explore Featured Projects
+              View Projects
             </a>
             <a
               href="#contact"
               className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-medium text-sm backdrop-blur-sm transition-all duration-200 border border-white/30"
             >
-              Get in Touch
+              Contact
             </a>
           </div>
 
@@ -84,7 +83,7 @@ export default function HeaderHero() {
           {/* Top Half: Professional Portrait Photo */}
           <div className="relative w-full h-[380px] sm:h-[420px] md:h-[460px] lg:h-[480px] overflow-hidden bg-[#0A0A0A]">
             <Image
-              src="/images/hero_portrait1.jpg"
+              src="/images/hero_portrait.jpeg"
               alt="Muhammad Awais - Native Android Developer"
               fill
               priority

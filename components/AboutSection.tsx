@@ -9,7 +9,7 @@ export default function AboutSection() {
         {/* Left Side: Developer Coding Atmosphere (Photo) */}
         <div className="relative w-full h-[400px] sm:h-[480px] md:h-[540px] lg:h-auto min-h-[460px] bg-black overflow-hidden order-2 lg:order-1">
           <Image
-            src="/images/coding_developer.jpg"
+            src="/images/jetpack compose icon.png"
             alt="Muhammad Awais software development workspace"
             fill
             className="object-cover object-center filter brightness-95 contrast-105 transition-transform duration-700 hover:scale-105"
@@ -57,17 +57,17 @@ export default function AboutSection() {
             {/* Exact Bio Text from Design */}
             <div className="space-y-4 max-w-xl text-lg sm:text-xl font-medium leading-relaxed text-emerald-50">
               <p className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-                Hi! I&#39;m Awais.
+                Hi, I&#39;m Awais.
               </p>
               <p className="text-white/95">
-                I&#39;m a software developer specializing in native Android and backend development. I build modern Android applications using Kotlin and Jetpack Compose, while also developing scalable server-side.
+                I build native Android apps with Kotlin and Jetpack Compose, and scalable backends with Node.js.
               </p>
               <p className="text-sm sm:text-base text-emerald-100/90 leading-relaxed pt-2">
-                Alongside mobile engineering, I possess professional experience as a{" "}
+                I also work as a{" "}
                 <span className="text-white font-semibold underline decoration-white/40 underline-offset-4">
                   Requirements &amp; QA Engineer at Splenify
                 </span>
-                , providing deep understanding of clean architecture, SDLC, bug prevention, and user-centric acceptance testing.
+                , which keeps me close to clean architecture, bug prevention, and real user needs.
               </p>
             </div>
           </div>

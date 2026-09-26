@@ -34,15 +34,9 @@ export default function ProjectsSection() {
         {/* Left Column: "Projects" Heading + Curved Green Arrow */}
         <div className="lg:col-span-5 p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-zinc-800 relative">
           <div>
-            <div className="text-xs font-mono text-emerald-400 tracking-widest uppercase mb-3">
-              Portfolio / Work
-            </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-none text-white">
               Projects
             </h2>
-            <p className="mt-4 text-zinc-400 text-sm sm:text-base max-w-sm leading-relaxed">
-              Explore production-grade native Android applications, innovative Glance widgets, and full-stack real-time backends.
-            </p>
           </div>
 
           {/* Curved Green Arrow pointing to the right list (matching PDF) */}
@@ -109,19 +103,10 @@ export default function ProjectsSection() {
       <div className="p-8 sm:p-12 md:p-16 lg:p-20 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto">
           {/* Header row */}
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 pb-6 border-b border-zinc-800 gap-4">
-            <div>
-              <div className="inline-flex items-center gap-2 text-xs font-mono text-[#169458] tracking-widest uppercase mb-2">
-                <span className="w-2 h-2 rounded-full bg-[#169458]" />
-                Live Demonstrations
-              </div>
-              <h3 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white">
-                Screenshots &amp; App Architecture
-              </h3>
-            </div>
-            <p className="text-xs sm:text-sm font-mono text-zinc-400 max-w-sm">
-              Click any app card for interactive modal with complete technical specifications, source code, and release testing links.
-            </p>
+          <div className="mb-12 pb-6 border-b border-zinc-800">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white">
+              Work
+            </h3>
           </div>
 
           {/* Cards Grid */}

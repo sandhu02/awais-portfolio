@@ -92,7 +92,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                   src={project.image}
                   alt={`${project.title} screenshot`}
                   fill
-                  className="object-contain sm:object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="object-contain transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, 300px"
                 />
               </div>

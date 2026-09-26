@@ -9,17 +9,11 @@ export default function SkillsSection() {
         {/* Left Column: Heading */}
         <div className="lg:col-span-5 p-8 sm:p-12 md:p-16 bg-[#111111] border-b lg:border-b-0 lg:border-r border-zinc-800 flex flex-col justify-between">
           <div>
-            <div className="inline-flex items-center gap-2 text-xs font-mono tracking-widest text-[#169458] uppercase mb-4">
-              <span className="w-2 h-2 rounded-full bg-[#169458]" />
-              Core Competencies
-            </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-[1.08] text-white">
-              Technical
-              <br />
-              Skills &amp; Stack
+              Skills
             </h2>
             <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed max-w-md">
-              Specialized expertise spanning the modern Android ecosystem, hardware &amp; OS-level system APIs, real-time networking, and rigorous QA engineering.
+              Android, backend, AI, and QA engineering.
             </p>
           </div>
 
@@ -43,9 +37,6 @@ export default function SkillsSection() {
               }`}
             >
               <div>
-                <div className="text-[11px] font-mono tracking-wider text-emerald-400 uppercase mb-2">
-                  0{idx + 1} // {category.title}
-                </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-2">
                   {category.title}
                 </h3>

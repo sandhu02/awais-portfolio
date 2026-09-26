@@ -26,17 +26,14 @@ export default function ContactFooter() {
         <div className="bg-[#169458] text-white p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between relative overflow-hidden">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-black tracking-tight leading-[1.08] uppercase text-white max-w-lg">
-              Need a Native
+              Let&#39;s build
               <br />
-              Android App or a
+              something
               <br />
-              Custom Server?
+              together.
             </h2>
 
             <div className="mt-8">
-              <p className="text-sm font-mono uppercase tracking-wider text-emerald-100 font-semibold mb-3">
-                Contact me via:
-              </p>
 
               <ul className="space-y-3 font-mono text-sm sm:text-base text-white">
                 {/* Phone */}
