@@ -214,7 +214,7 @@ export function WireframePolyhedron({
 }
 
 /**
- * 3D Isometric Wireframe: Octahedron (Project 2 - Signstream)
+ * 3D Isometric Wireframe: Octahedron (Project 2 - Socio)
  */
 export function WireframeOctahedron({
   color = "#E07A5F",

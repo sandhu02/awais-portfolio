@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "MVVM",
     "Hilt",
     "JsonLauncher",
-    "Signstream",
+    "Socio",
     "JsonClock",
     "Mobile Engineer",
     "Islamabad Pakistan",

@@ -149,8 +149,8 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/sandhu02/json-launcher",
     image: "/images/json_launcher.png",
     additionalImages: [
-      "/images/json_launcher.jpg",
-      "/images/json_clock.svg",
+      "/images/json_launcher_dialog.png",
+      "/images/json_launcher_settings.png",
     ],
     keyFeatures: [
       "Distinctive JSON-syntax home screen rendering battery, network, memory, and time in real-time.",
@@ -163,13 +163,13 @@ export const PROJECTS: Project[] = [
     metrics: "Currently undergoing Google Play Alpha Testing with over 99.8% crash-free sessions across Android 12 through 15.",
   },
   {
-    id: "signstream",
-    title: "Signstream",
+    id: "socio",
+    title: "Socio",
     subtitle: "Real-time Social Media & WebRTC Calling App",
     category: "Full-Stack Android & Cloud",
     wireframeType: "octahedron",
     summary: "Modern Android social application for short video sharing, real-time messaging, and peer-to-peer audio calling.",
-    description: "Signstream brings together high-performance mobile video consumption and low-latency communication. Built with Jetpack Compose for the mobile front-end and a custom Node.js/Express.js backend, it features real-time bidirectional messaging via Socket.IO, WebRTC peer audio connectivity, and Cloudinary media optimization.",
+    description: "Socio brings together high-performance mobile video consumption and low-latency communication. Built with Jetpack Compose for the mobile front-end and a custom Node.js/Express.js backend, it features real-time bidirectional messaging via Socket.IO, WebRTC peer audio connectivity, and Cloudinary media optimization.",
     techStack: [
       "Kotlin",
       "Jetpack Compose",
@@ -182,9 +182,9 @@ export const PROJECTS: Project[] = [
     ],
     githubUrl: "https://github.com/sandhu02/AndroidProjects",
     playStoreUrl: "",
-    image: "/images/signstream.svg",
+    image: "/images/socio.png",
     additionalImages: [
-      "/images/signstream.svg",
+  
     ],
     keyFeatures: [
       "High-frame-rate vertical video feed player with gesture controls and smooth memory caching.",

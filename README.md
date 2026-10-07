@@ -45,8 +45,8 @@ Built with **Next.js 16 (App Router)**, **React 19**, **TypeScript**, and **Tail
 | Project | Type | Tech Stack | Highlights |
 | :--- | :--- | :--- | :--- |
 | **[JsonLauncher](https://play.google.com/store/apps/details?id=com.awais.jsonlauncher)** | Native Android App | Kotlin, Jetpack Compose, MVVM, Hilt, LauncherApps API | Minimalist launcher rendering phone telemetry as live JSON; instant fuzzy search; Google Play Alpha testing. |
-| **[Signstream](https://github.com/sandhu02/Signstream)** | Full-Stack Mobile & Cloud | Kotlin, Jetpack Compose, Node.js, Socket.IO, WebRTC | Real-time social feed, short videos, sub-100ms bidirectional chat, peer-to-peer audio calling via WebRTC. |
-| **[JsonClock](https://github.com/sandhu02/JsonClock)** | Android Glance Widget | Kotlin, Jetpack Compose Glance, WorkManager, Material 3 | Declarative home screen widget displaying date, time, and battery telemetry in JSON format; ultra-low battery footprint. |
+| **[Socio](https://github.com/sandhu02/AndroidProjects)** | Full-Stack Mobile & Cloud | Kotlin, Jetpack Compose, Node.js, Socket.IO, WebRTC | Real-time social feed, short videos, sub-100ms bidirectional chat, peer-to-peer audio calling via WebRTC. |
+| **[JsonClock](https://github.com/sandhu02/AndroidProjects)** | Android Glance Widget | Kotlin, Jetpack Compose Glance, WorkManager, Material 3 | Declarative home screen widget displaying date, time, and battery telemetry in JSON format; ultra-low battery footprint. |
 
 ---
 
