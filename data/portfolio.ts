@@ -180,7 +180,7 @@ export const PROJECTS: Project[] = [
       "Cloudinary",
       "MongoDB",
     ],
-    githubUrl: "https://github.com/sandhu02/AndroidProjects",
+    githubUrl: "https://github.com/sandhu02/socio",
     playStoreUrl: "",
     image: "/images/socio.png",
     additionalImages: [
